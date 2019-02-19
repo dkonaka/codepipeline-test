@@ -8,6 +8,7 @@ phases:
                                    --output-template-file outputSamTemplate.yaml
 artifacts:
   type: zip
+  name: InputArtifactsss
   files:
     - samTemplate.yaml
     - outputSamTemplate.yaml
