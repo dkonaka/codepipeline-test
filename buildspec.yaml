@@ -16,5 +16,7 @@ artifacts:
     artifact1:
       files:
         - outputSamTemplate.yaml
-      name: secondary-artifact-name-1   
+      name: secondary-artifact-name-1
+      type: zip
+      discard-paths: yes
     
