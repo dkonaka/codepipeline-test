@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+      echo 'testing'
       - npm install time
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket codedeploy-linux
                                    --output-template-file outputSamTemplate.yaml
